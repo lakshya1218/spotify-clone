@@ -1,0 +1,19 @@
+./src/Sidebar.js 79:16
+Module parse failed: Unexpected token (79:16)
+You may need an appropriate loader to handle this file type.
+|       columnNumber: 5
+|     }
+>   }), playlists?.items?.map(function (playlist) {
+|     return /*#__PURE__*/React.createElement(SidebarOption, {
+|       title: playlist.name,
+
+
+
+showing the above error..
+
+ {playlists?.items?.map((playlist) => (
+       <SidebarOption title={playlist.name} />
+       )) }
+       
+       
+       for this piece of code..
